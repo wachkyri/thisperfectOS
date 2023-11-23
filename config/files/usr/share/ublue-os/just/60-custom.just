@@ -1,5 +1,5 @@
-!include /usr/share/ublue-os/just/100-bling.just
-
+!include 100-bling.just
+# Include some of your custom scripts here!
 
 # Install Homebrew for Linux
 brew:
@@ -43,3 +43,4 @@ docker:
     sudo systemctl enable --now docker
     sudo usermod -aG docker $USER
     newgrp docker
+
