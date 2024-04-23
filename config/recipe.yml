@@ -31,18 +31,18 @@ modules:
       # - micro
       # - starship
       # Virt-manager packages from bluefin-dx
-      - qemu
-      - qemu-user-binfmt
-      - virt-manager
-      - libvirt
-      - edk2-ovmf
-      - genisoimage
-      - qemu-img
-      - qemu-system-x86-core
-      - qemu-char-spice
-      - qemu-device-usb-redirect
-      - qemu-device-display-virtio-vga
-      - qemu-device-display-virtio-gpu
+      # - qemu
+      # - qemu-user-binfmt
+      # - virt-manager
+      # - libvirt
+      # - edk2-ovmf
+      # - genisoimage
+      # - qemu-img
+      # - qemu-system-x86-core
+      # - qemu-char-spice
+      # - qemu-device-usb-redirect
+      # - qemu-device-display-virtio-vga
+      # - qemu-device-display-virtio-gpu
       - ksysguard
       - pulseaudio-utils # for sunshine
       - colord-kde
